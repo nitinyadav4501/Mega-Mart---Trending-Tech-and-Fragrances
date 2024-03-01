@@ -66,7 +66,7 @@ function CartItem() {
                       ${cart.reduce((a, b) => a + b.price, 0)}
                     </span>
                   </p>
-                  <button className="bg-black text-white rounded-full py-2 px-12 font-bold">
+                  <button className="bg-black hover:bg-orange-500 text-white rounded-full py-2 px-12 font-bold">
                     Checkout Now
                   </button>
                 </div>

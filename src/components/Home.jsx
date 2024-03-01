@@ -53,7 +53,7 @@ function Home() {
               icon={<IoMdLaptop />}
             />
             <div className="w-fit mx-auto pb-6">
-              <button className=" py-2 bg-black text-white rounded-full px-4 font-bold">
+              <button className=" py-2 bg-black hover:bg-orange-500 text-white rounded-full px-4 font-bold">
                 <Link to="/allProduct">View All Product</Link>
               </button>
             </div>
