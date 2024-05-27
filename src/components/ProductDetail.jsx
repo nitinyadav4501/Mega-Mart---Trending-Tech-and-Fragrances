@@ -7,8 +7,7 @@ import Loading from "./Loading";
 
 function ProductDetail() {
   const navigate = useNavigate();
-  const location = useLocation();
-  const state = location.state;
+  const {state} = useLocation();
   const { data, loading } = useApi();
   const [relatedProduct, setRelatedProduct] = useState([]);
   useEffect(() => {
